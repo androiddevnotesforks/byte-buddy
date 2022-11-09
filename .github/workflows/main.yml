@@ -127,7 +127,7 @@ jobs:
     runs-on: ubuntu-20.04
     if: github.event_name == 'push'
     steps:
-      - uses: step-security/harden-runner@dd2c410b088af7c0dc8046f3ac9a8f4148492a95 # V1.4.5
+      - uses: step-security/harden-runner@ebacdc22ef6c2cfb85ee5ded8f2e640f4c776dd5 # V2.0.0
         with:
           egress-policy: block
           disable-telemetry: true
@@ -161,7 +161,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: step-security/harden-runner@dd2c410b088af7c0dc8046f3ac9a8f4148492a95 # V1.4.5
+      - uses: step-security/harden-runner@ebacdc22ef6c2cfb85ee5ded8f2e640f4c776dd5 # V2.0.0
         with:
           egress-policy: audit # servers have changed, must be adjusted after next release
       - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # v3.0.2
