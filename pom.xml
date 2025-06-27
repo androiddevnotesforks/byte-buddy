@@ -102,7 +102,7 @@
         <version.plugin.enforcer>3.1.0</version.plugin.enforcer>
         <version.plugin.jacoco>0.8.12</version.plugin.jacoco>
         <version.plugin.coveralls>4.3.0</version.plugin.coveralls>
-        <version.plugin.checkstyle>3.1.2</version.plugin.checkstyle>
+        <version.plugin.checkstyle>3.2.1</version.plugin.checkstyle>
         <version.plugin.jitwatch>1.1</version.plugin.jitwatch>
         <version.plugin.spotbugs>4.8.3.1</version.plugin.spotbugs>
         <version.plugin.modulemaker>1.11</version.plugin.modulemaker>
